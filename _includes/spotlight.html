@@ -1,0 +1,12 @@
+<section class="spotlight {{ spotlight.modifiers }}" id="{{ id }}">
+    <div class="content">
+        <h2>{{ spotlight.title }}</h2>
+        <p>{{ spotlight.excerpt }}</p>
+        <ul class="actions stacked">
+            <li><a href="{{ spotlight.url | absolute_url }}" class="button">{{ spotlight.button-text }}</a></li>
+        </ul>
+    </div>
+    <div class="image">
+        <img src="images/{{ spotlight.image }}" alt="{{ spotlight.img-alt }}" />
+    </div>
+</section>

@@ -1,0 +1,13 @@
+defaults:
+  -
+    scope:
+      posts: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      style: style1
+      orient1: orient-left
+      orient2: orient-right
+      content-align: content-align-left
+      image-position: image-position-center
+      onscroll-image: onscroll-image-fade-in
+      button-text: Learn More
