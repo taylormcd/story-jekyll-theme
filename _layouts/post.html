@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>{{page.title}}  {% if subtitle %} | {{subtitle}} {% endif %}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{"/assets/css/main.css" | absolute_url}}" />
+</head>
+
+<body>
+
+    <section class="wrapper style1 align-center">
+        <div class="inner">
+            <ul class="actions fit">
+                {% if page.previous %}
+                    <li><a href="{{page.previous.url | relative_url}}" class="button small">Previous</a></li>
+                {% else %}
+                    <li><a href="{{page.previous.url | relative_url}}" class="button small disabled">Previous</a></li>
+                {% endif %}
+                <li><a href="{{"/" | relative_url}}" class="button small">Home</b></a></li>
+                {% if page.next %}
+                    <li><a href="{{page.next.url | relative_url}}" class="button small">Next</a></li>
+                {% else %}
+                    <li><a href="{{page.next.url | relative_url}}" class="button small disabled">Next</a></li>
+                {% endif %}
+            </ul>
+            <h1>{{page.title}}</h1>
+            <p>{{page.subtitle}}</p>
+            <ul class="icons social-sticky">
+                <li><b>Share:</b></a></li>
+                <li><a href="https://twitter.com/intent/tweet?text={{page.title}}&url={{page.url | absolute_url}}&hashtags={{page.tags}}&via={{site.data.social.twitterHandle}}" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/sharer.php?u={{page.url | absolute_url}}" class="icon brands style2 fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://reddit.com/submit?url={{page.url | absolute_url}}&title={{page.title}}" class="icon brands style2 fa-reddit"><span class="label">Reddit</span></a></li>
+            </ul>
+            <div class="index align-left">
+                <section>
+                    <div class="content">
+                        {{content}}
+                    </div>
+                </section>
+            </div>
+            <ul class="actions fit">
+                {% if page.previous %}
+                    <li><a href="{{page.previous.url | relative_url}}" class="button small">Previous: {{page.previous.title}}</a></li>
+                {% else %}
+                    <li><a href="{{page.previous.url | relative_url}}" class="button small disabled">Previous</a></li>
+                {% endif %}
+                {% if page.next %}
+                    <li><a href="{{page.next.url | relative_url}}" class="button small">Next: {{page.next.title}}</a></li>
+                {% else %}
+                    <li><a href="{{page.next.url | relative_url}}" class="button small disabled">Next</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
