@@ -14,6 +14,7 @@
 				<!-- Posts -->
 					{% for post in site.posts %}
 						{% assign spotlight = post %}
+						{% capture id %}post_{{ forloop.index0 }}{% endcapture %}
 						{% include spotlight.html %}
 					{% endfor %}
 
