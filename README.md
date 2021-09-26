@@ -5,7 +5,7 @@ Jekyll adaptation of the Story website template by [HTML5 UP](https://html5up.ne
 
 TODO
 
-### Original README from Story theme
+### Original README
 ```
 Story by HTML5 UP
 html5up.net | @ajlkn
