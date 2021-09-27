@@ -3,13 +3,10 @@ Jekyll adaptation of the Story website template by [HTML5 UP](https://html5up.ne
 
 ## Quickstart
 
-First, [install Jekyll](https://jekyllrb.com/docs/installation/).
-
-Then, clone this repository into a convenient location on your computer.
-
-Next, navigate to the main directory of this project in your terminal and run `jekyll serve`.
-
-Finally, preview the current status of the webpage in your browser at `http://localhost:4000/`.
+ 1. [Install Jekyll](https://jekyllrb.com/docs/installation/).
+ 2. Clone this repository into a convenient location on your computer.
+ 3. Navigate to the main directory of this project in your terminal and run `jekyll serve`.
+ 4. Preview the current status of the webpage in your browser at `http://localhost:4000/`.
 
 ## Customizing the Webpage
 
