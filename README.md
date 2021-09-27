@@ -10,8 +10,6 @@ Jekyll adaptation of the Story website template by [HTML5 UP](https://html5up.ne
 
 ## Customizing the Webpage
 
-Before proceeding, we recommend you review the different element types provided by the Story theme [here](https://html5up.net/uploads/demos/story/) and the built-in modifiers for each element type.
-
 The following element types are currently supported by this package:
  - Banner
  - Spotlight
