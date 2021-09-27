@@ -1,8 +1,12 @@
 ---
-title: Six
-icon: fa-paper-plane
-icon_options: style2 major
 items: 1
+button_link:
+button_options: small
+button_text: Details
 ---
+
+<span class="icon style2 major fa-paper-plane"></span>
+
+### Six
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.
