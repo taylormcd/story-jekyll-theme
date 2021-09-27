@@ -1,0 +1,13 @@
+<section class="wrapper style1 align-center">
+    <div class="inner">
+        <h2>{{ section.title }}</h2>
+        <p>{{ section.content }} </p>
+        <div class="items {{ section.options }}">
+            {% for item in site.items %}
+                {% if section.items == item.items %}
+                    {% include item.html %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

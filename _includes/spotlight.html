@@ -1,12 +1,14 @@
-<section class="spotlight {{ spotlight.modifiers }}" id="{{ id }}">
+<section class="spotlight {{ section.modifiers }}" id="{{ id }}">
     <div class="content">
-        <h2>{{ spotlight.title }}</h2>
-        <p>{{ spotlight.excerpt }}</p>
-        <ul class="actions stacked">
-            <li><a href="{{ spotlight.url | absolute_url }}" class="button">{{ spotlight.button-text }}</a></li>
-        </ul>
+        <h2>{{ section.title }}</h2>
+        <p>{{ section.content }}</p>
+        {% if section.button_link %}
+            <ul class="actions stacked">
+                <li><a href="{{ section.button_link }}" class="button {{button_options}}">{{ section.button_text }}</a></li>
+            </ul>
+        {% endif %}
     </div>
     <div class="image">
-        <img src="images/{{ spotlight.image }}" alt="{{ spotlight.img-alt }}" />
+        <img src="images/{{ section.image }}" alt="{{ section.image_alt }}" />
     </div>
 </section>

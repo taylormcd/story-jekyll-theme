@@ -1,13 +1,37 @@
-defaults:
-  -
-    scope:
-      posts: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      style: style1
-      orient1: orient-left
-      orient2: orient-right
-      content-align: content-align-left
-      image-position: image-position-center
-      onscroll-image: onscroll-image-fade-in
-      button-text: Learn More
+collections:
+  sections:
+    order:
+      - banner1.md
+      - spotlight1.md
+      - spotlight2.md
+      - spotlight3.md
+      - gallery1.md
+      - items1.md
+  gallery:
+    order:
+      - image1.md
+      - image2.md
+      - image3.md
+      - image4.md
+      - image5.md
+      - image6.md
+      - image7.md
+      - image8.md
+      - image9.md
+      - image10.md
+      - image11.md
+      - image12.md
+  items:
+    order:
+      - item1.md
+      - item2.md
+      - item3.md
+      - item4.md
+      - item5.md
+      - item6.md
+      - item7.md
+      - item8.md
+      - item9.md
+      - item10.md
+      - item11.md
+      - item12.md

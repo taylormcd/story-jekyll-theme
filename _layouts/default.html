@@ -7,18 +7,22 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
-				<!-- Banner -->
-					{% assign banner = site.pages | find: "name", "banner.md" %}
-					{% include banner.html %}
-
-				<!-- Posts -->
-					{% for post in site.posts %}
-						{% assign spotlight = post %}
-						{% capture id %}post_{{ forloop.index0 }}{% endcapture %}
-						{% include spotlight.html %}
+				<!-- Sections -->
+					{% for section in site.sections %}
+						{% capture id %}section_{{ forloop.index0 }}{% endcapture %}
+						{% case section.type %}
+							{% when "banner" %}
+								{% include banner.html %}
+							{% when "spotlight" %}
+								{% include spotlight.html %}
+							{% when "gallery" %}
+								{% include gallery.html %}	
+							{% when "items" %}
+								{% include items.html %}
+						{% endcase %}
 					{% endfor %}
 
-				<!-- Contact form -->
+				<!-- Contact -->
 					{% include contact.html %}
 
 				<!-- Footer -->

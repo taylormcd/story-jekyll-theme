@@ -1,15 +1,15 @@
-<section class="banner {{ banner.modifiers }}">
+<section class="banner {{ section.modifiers }}">
     <div class="content">
-        <header>
-            <h2>{{ banner.title }}</h2>
-            <p>{{ banner.subtitle }}</p>
-        </header>
-        <p class="major">{{ banner.content }}</p>
-        <ul class="actions stacked">
-            <li><a href="#post_0" class="button big wide smooth-scroll-middle">{{ banner.action-text }}</a></li>
-        </ul>
+        <h1>{{ section.title }}</h1>
+        <p class="major">{{ section.subtitle }}</p>
+        <p> {{ section.content }}</p>
+        {% if section.button_link %}
+            <ul class="actions stacked">
+                <li><a href="{{ section.button_link }}" class="button {{section.button_options}}">{{ section.button_text }}</a></li>
+            </ul>
+        {% endif %}
     </div>
     <div class="image">
-        <img src="images/banner.jpg" alt="" />
+        <img src="images/{{ section.image }}" alt="{{ section.image_alt }}" />
     </div>
 </section>

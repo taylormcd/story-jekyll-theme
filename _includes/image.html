@@ -1,0 +1,13 @@
+<article>
+    <a href="images/{{ image.image }}" class="image">
+        <img src="images/{{ image.thumb }}" alt=" {{ image.image_alt }} " />
+    </a>
+    <div class="caption">
+        <h3>{{ image.title }}</h3>
+        <p>{{ image.content }}</p>
+        <ul class="actions fixed">
+            <li><a href="{{ image.url | absolute_url }}" class="button {{ image.button_options }}">{{ image.button_text }}</a></li>
+        </ul>
+    </div>
+    </article>
+     
