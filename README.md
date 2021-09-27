@@ -24,7 +24,7 @@ The following element types are currently supported by this package:
 
 A webpage designed using this package may be constructed using any number of these elements, in any order.  Each of these elements is represented by a different markdown file in the `_elements` folder.  The order of these elements can be customized in the `_config.yml` file.  How to construct the markdown files which represent each of these elements is described in the following sections:
 
-### Banner
+### Banner Element
 
 A banner element markdown file contains the following fields in its front matter: 
  - type: Element type (i.e. `banner`)
@@ -37,7 +37,7 @@ A banner element markdown file contains the following fields in its front matter
 
 Markdown text corresponding to the banner element is then inserted after the front matter.
 
-### Spotlight
+### Spotlight Element
 
 A spotlight element markdown file contains the following fields in its front matter: 
  - type: Element type (i.e. `spotlight`)
@@ -50,7 +50,7 @@ A spotlight element markdown file contains the following fields in its front mat
 
 Markdown text corresponding to the spotlight element is then inserted after the front matter.
 
-### Gallery
+### Gallery Element
 
 A gallery element markdown file contains the following fields in its front matter: 
  - type: Element type (i.e. `gallery`)
@@ -62,14 +62,7 @@ A gallery element markdown file contains the following fields in its front matte
 
 Markdown text corresponding to the gallery element is then inserted after the front matter.
 
-### Gallery Content
-
-Gallery element markdown file content is represented by markdown files in the `_gallery` folder.  Content will be automatically added to the gallery element with a matching ID.  The order of gallery content can be customized in the `_config.yml` file.
-
-Each gallery element markdown file contains the following front matter:
-
-
-### Items
+### Items Element
 
 An items element contains the following fields in its front matter: 
  - type: Element type (i.e. `items`)
@@ -81,26 +74,36 @@ An items element contains the following fields in its front matter:
 
 The markdown text corresponding to the items element is then inserted after the front matter.
 
+### Gallery Element Images
 
+The content associated with each gallery element image is represented by markdown files in the `_gallery` folder.  Each image will be automatically added to the gallery element with a matching ID.  The order of images can be customized in the `_config.yml` file.
 
-### Items Content
+Each gallery element image markdown file contains the following fields in its front matter:
+ - button_link: Button link.  If this field is omitted, the button is not displayed
+ - button_text: Button text.
+ - button_options: Button modifiers, as described [here](https://html5up.net/uploads/demos/story/)
+ - image: Full image file, relative to the `images` directory
+ - thumb: Thumbnail image file, relative to the `images` directory
+ - image_alt: Alternative text for the image file (for slow loading connections)
+ - gallery: ID corresponding to the gallery element
 
-Items element content is represented by markdown files in the `_items` folder.  Content will be automatically added to the items element with a matching ID.  The order of items content can be customized in the `_config.yml` file.
+The markdown text corresponding to the image is then inserted after the front matter.
 
+### Items Element Items
 
-Items content is represented by markdown files in the `_items` folder.
+The content associated with each items element item is represented by markdown files in the `_items` folder.  Each item will be automatically added to the items element with a matching ID.  The order of items can be customized in the `_config.yml` file.
+
+An items element contains the following fields in its front matter: 
+ - button_link: Button link.  If this field is omitted, the button is not displayed
+ - button_text: Button text.
+ - button_options: Button modifiers, as described [here](https://html5up.net/uploads/demos/story/)
+ - items: ID corresponding to the items element
+
+The markdown text corresponding to the item is then inserted after the front matter.
 
 ### Updating Webpage Sections
 
 Webpage content may be updated by modifying the relevant markdown file in the `_sections` folder.  New webpage content may be added by adding new markdown files to the `_sections` folder.
-
-### Updating Gallery Content
-
-### Updating Items Content
-
-### Updating the Webpage Order
-
-To update the webpage layout, 
 
 ### Updating Social Media Links
 
@@ -109,12 +112,6 @@ To update the collection of social media links, update the `_config.yml` file wi
 ### Updating Copyright Information
 
 To set the copyright owner for your website, update the `_config.yml` file with your name.
-
-### Setting Contact Information
-
-To update the website t
-
-TODO
 
 ## Original README
 ```
