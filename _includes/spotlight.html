@@ -3,7 +3,7 @@
         <p>{{ section.content }}</p>
         {% if section.button_link %}
             <ul class="actions stacked">
-                <li><a href="{{ section.button_link }}" class="button {{button_options}}">{{ section.button_text }}</a></li>
+                <li><a href="{{ section.button_link }}" class="button {{section.button_options}}">{{ section.button_text }}</a></li>
             </ul>
         {% endif %}
     </div>

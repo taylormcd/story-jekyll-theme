@@ -1,6 +1,9 @@
 ---
 type: items
-options: style1 medium onscroll-fade-in
+modifiers: style1 medium onscroll-fade-in
+button_link:
+button_text:
+button_options:
 items: 1
 ---
 

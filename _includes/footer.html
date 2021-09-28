@@ -4,7 +4,7 @@
             {% for account in site.social-media %}
                 {% assign key = account | first %}
                 {% if key == "email" %}
-                    <li><a href="{{ site.social-media[key] }}" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+                    <li><a href="mailto:{{ site.social-media[key] }}" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
                 {% else %}
                     <li><a href="{{ site.data.social-media[key].profile url_prefix }}{{ site.social-media[key] }}" class="icon brands style2 {{ site.data.social-media[key].fa-icon }}"><span class="label">{{ site.data.social-media[key].name }}</span></a></li>
                 {% endif %}

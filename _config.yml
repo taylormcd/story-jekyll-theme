@@ -1,6 +1,3 @@
-settings:
-  author: Your Name
-
 collections:
   elements:
     order:
@@ -59,4 +56,6 @@ social-media:
   # website: http://your_website_url
   # youtube: your_username
 
+settings:
+  copyright-owner: Your Name
 
