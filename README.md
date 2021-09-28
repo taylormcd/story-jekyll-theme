@@ -1,5 +1,5 @@
 # story-jekyll-theme
-Jekyll adaptation of the [Story website template](https://html5up.net/uploads/demos/story/) by HTML5 UP](https://html5up.net).  Designed for use by those who can write in Markdown, i.e. pretty much anyone.  No prior website building experience required.
+Jekyll adaptation of the [Story website template](https://html5up.net/uploads/demos/story/) by [HTML5 UP](https://html5up.net).  Designed for use by those who can write in Markdown, i.e. pretty much anyone.  No prior website building experience required.
 
 ## Quickstart
 
