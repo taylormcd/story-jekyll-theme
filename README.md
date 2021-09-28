@@ -102,6 +102,14 @@ An items element contains the following fields in its front matter:
 
 Markdown text corresponding to the item is then inserted after the front matter.
 
+### Form Elements
+
+A contact form element contains the following fields in its front matter:
+ - type: Element type (i.e. `items`)
+ - action: Action associated with the contact form. (e.g. https://formspree.io/youremail@mail.com)
+
+Markdown text corresponding to the item is then inserted after the front matter
+
 ### Social Media
 
 To customize the collection of social media links, update the `_config.yml` file with your social media usernames.  Comment out any social media profiles you do not wish to list on your website. 

@@ -7,6 +7,7 @@ collections:
       - spotlight3.md
       - gallery1.md
       - items1.md
+      - form1.md
   gallery:
     order:
       - image1.md

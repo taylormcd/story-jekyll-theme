@@ -1,7 +1,7 @@
 <section class="wrapper style1 align-center">
     <div class="inner medium">
-        <h2>Get in touch</h2>
-        <form method="post" action="https://formspree.io/{{site.data.social.email}}">
+        <p>{{ element.content }}</p>
+        <form method="post" action="{{ element.action }}">
             <div class="field half first">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" value="" />
