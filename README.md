@@ -117,3 +117,9 @@ To customize the collection of social media links, update the `_config.yml` file
 ### Copyright
 
 To set the copyright owner for your website, update the `_config.yml` file with the copyright-owner.
+
+## Deployment
+
+For instructions on how to deploy the resulting content online, see the [Jekyll documentation](https://jekyllrb.com/docs/deployment/).
+
+NOTE: GitHub Actions is required to deploy to GitHub Pages because [GitHub won't update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
