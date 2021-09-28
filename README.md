@@ -121,5 +121,3 @@ To set the copyright owner for your website, update the `_config.yml` file with 
 ## Deployment
 
 For instructions on how to deploy the resulting content online, see the [Jekyll documentation](https://jekyllrb.com/docs/deployment/).  For example, [this webpage]() has been deployed from this repository using Github Actions.
-
-NOTE: GitHub Actions is required to deploy to GitHub Pages because [GitHub won't update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
