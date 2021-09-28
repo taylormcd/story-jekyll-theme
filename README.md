@@ -28,34 +28,34 @@ In the context of this Jekyll-based template, each of these elements is represen
 ### Banner Elements
 
 A banner element markdown file contains the following fields in its front matter: 
- - type: Element type (i.e. `banner`).
- - modifiers: Element modifiers, as described [here](https://html5up.net/uploads/demos/story/#reference-banner).
- - button_link: Button link.  If this field is omitted, the button is not displayed.
- - button_text: Button text.
- - button_options: Button modifiers, as described [here](https://html5up.net/uploads/demos/story/)
- - image: Image file, relative to the `images` directory
- - image_alt: Alternative text for the image file (for slow loading connections)
+ - `type`: Element type (i.e. `banner`).
+ - `modifiers`: Element modifiers, as described [here](https://html5up.net/uploads/demos/story/#reference-banner).
+ - `button_link`: Button link.  If this field is omitted, the button is not displayed.
+ - `button_text`: Button text.
+ - `button_options`: Button modifiers, as described [here](https://html5up.net/uploads/demos/story/)
+ - `image`: Image file, relative to the `images` directory
+ - `image_alt`: Alternative text for the image file (for slow loading connections)
 
 Markdown text corresponding to the banner element is then inserted after the front matter.
 
 ### Spotlight Elements
 
 A spotlight element markdown file contains the following fields in its front matter: 
- - type: Element type (i.e. `spotlight`)
- - modifiers: Element modifiers, as described [here](https://html5up.net/uploads/demos/story/#reference-spotlight)
- - button_link: Button link.  If this field is omitted, the button is not displayed
- - button_text: Button text.
- - button_options: Button modifiers, as described [here](https://html5up.net/uploads/demos/story/)
- - image: Image file, relative to the `images` directory
- - image_alt: Alternative text for the image file (for slow loading connections)
+ - `type`: Element type (i.e. `spotlight`)
+ - `modifiers`: Element modifiers, as described [here](https://html5up.net/uploads/demos/story/#reference-spotlight)
+ - `button_link`: Button link.  If this field is omitted, the button is not displayed
+ - `button_text`: Button text.
+ - `button_options`: Button modifiers, as described [here](https://html5up.net/uploads/demos/story/)
+ - `image`: Image file, relative to the `images` directory
+ - `image_alt`: Alternative text for the image file (for slow loading connections)
 
 Markdown text corresponding to the spotlight element is then inserted after the front matter.
 
 ### Gallery Elements
 
 A gallery element markdown file contains the following fields in its front matter: 
- - type: Element type (i.e. `gallery`)
- - modifiers: Element modifiers, as described [here](https://html5up.net/uploads/demos/story/#reference-gallery)
+ - `type`: Element type (i.e. `gallery`)
+ - `modifiers`: Element modifiers, as described [here](https://html5up.net/uploads/demos/story/#reference-gallery)
  - button_link: Button link.  If this field is omitted, the button is not displayed
  - button_text: Button text.
  - button_options: Button modifiers, as described [here](https://html5up.net/uploads/demos/story/)
@@ -108,4 +108,4 @@ To customize the collection of social media links, update the `_config.yml` file
 
 ### Copyright
 
-To set the copyright owner for your website, update the `_config.yml` file with your name.
+To set the copyright owner for your website, update the `_config.yml` file with the copyright-owner.
