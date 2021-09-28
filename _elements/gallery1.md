@@ -1,6 +1,9 @@
 ---
 type: gallery
-options: style2 medium lightbox onscroll-fade-in
+modifiers: style2 medium lightbox onscroll-fade-in
+button_link: 
+button_text:
+button_options:
 gallery: 1
 ---
 

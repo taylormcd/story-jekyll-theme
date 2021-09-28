@@ -1,11 +1,11 @@
 ---
-gallery: 1
 button_link:
 button_options: small
 button_text: Details
 image: gallery/fulls/01.jpg
 thumb: gallery/thumbs/01.jpg
 image_alt: 
+gallery: 1
 ---
 
 ### Title

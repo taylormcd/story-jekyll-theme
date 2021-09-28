@@ -2,7 +2,7 @@
 type: items
 modifiers: style1 medium onscroll-fade-in
 button_link:
-button_text:
+button_text: Learn More
 button_options:
 items: 1
 ---

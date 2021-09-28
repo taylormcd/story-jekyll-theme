@@ -1,9 +1,11 @@
 <section class="wrapper style1 align-center">
     <div class="inner">
         <p>{{ section.content }}</p>
-        <ul class="actions stacked">
-            <li><a href="{{ section.button_link }}" class="button {{section.button_options}}">{{ section.button_text }}</a></li>
-        </ul>
+        {% if section.button_link %}
+            <ul class="actions stacked">
+                <li><a href="{{ section.button_link }}" class="button {{section.button_options}}">{{ section.button_text }}</a></li>
+            </ul>
+        {% endif %} 
         <div class="items {{ section.modifiers }}">
             {% for item in site.items %}
                 {% if section.items == item.items %}
