@@ -11,6 +11,7 @@ Jekyll adaptation of the [Story website template](https://html5up.net/uploads/de
     + [Items](#items)
   * [Social Media](#social-media)
   * [Copyright](#copyright)
+- [Deployment](#deployment)
 
 ## Quickstart
 
