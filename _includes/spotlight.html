@@ -1,13 +1,13 @@
-<section class="spotlight {{ section.modifiers }}" id="{{ id }}">
+<section class="spotlight {{ element.modifiers }}" id="{{ id }}">
     <div class="content">
-        <p>{{ section.content }}</p>
-        {% if section.button_link %}
+        <p>{{ element.content }}</p>
+        {% if element.button_link %}
             <ul class="actions stacked">
-                <li><a href="{{ section.button_link }}" class="button {{section.button_options}}">{{ section.button_text }}</a></li>
+                <li><a href="{{ element.button_link }}" class="button {{element.button_options}}">{{ element.button_text }}</a></li>
             </ul>
         {% endif %}
     </div>
     <div class="image">
-        <img src="images/{{ section.image }}" alt="{{ section.image_alt }}" />
+        <img src="images/{{ element.image }}" alt="{{ element.image_alt }}" />
     </div>
 </section>

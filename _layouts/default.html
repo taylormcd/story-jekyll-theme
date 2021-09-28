@@ -8,9 +8,9 @@
 			<div id="wrapper" class="divided">
 
 				<!-- Sections -->
-					{% for section in site.sections %}
+					{% for element in site.elements %}
 						{% capture id %}section_{{ forloop.index0 }}{% endcapture %}
-						{% case section.type %}
+						{% case element.type %}
 							{% when "banner" %}
 								{% include banner.html %}
 							{% when "spotlight" %}

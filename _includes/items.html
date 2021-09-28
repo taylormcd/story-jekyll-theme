@@ -1,14 +1,14 @@
 <section class="wrapper style1 align-center">
     <div class="inner">
-        <p>{{ section.content }}</p>
-        {% if section.button_link %}
+        <p>{{ element.content }}</p>
+        {% if element.button_link %}
             <ul class="actions stacked">
-                <li><a href="{{ section.button_link }}" class="button {{section.button_options}}">{{ section.button_text }}</a></li>
+                <li><a href="{{ element.button_link }}" class="button {{element.button_options}}">{{ element.button_text }}</a></li>
             </ul>
         {% endif %} 
-        <div class="items {{ section.modifiers }}">
+        <div class="items {{ element.modifiers }}">
             {% for item in site.items %}
-                {% if section.items == item.items %}
+                {% if element.items == item.items %}
                     {% include item.html %}
                 {% endif %}
             {% endfor %}
