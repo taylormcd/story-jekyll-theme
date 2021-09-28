@@ -126,7 +126,7 @@ For instructions on how to deploy the resulting content online, see the [Jekyll 
 
 ## Original README
 
-The following is the original README from the Story by HTML5 UP template.
+The following is the README from the original [Story by HTML5 UP template](https://html5up.net/story).
 
 ```
 Story by HTML5 UP
